@@ -1,0 +1,15 @@
+.nav{
+    padding-left: 300px;
+    /* border: 2px solid orange; */
+}
+
+
+.logInBtn{
+    margin-left: 40px;
+    background-color: orange;
+    border: 1px solid white;
+}
+
+.logInBtn:hover{
+    background-color:rgb(233, 20, 20);
+}
