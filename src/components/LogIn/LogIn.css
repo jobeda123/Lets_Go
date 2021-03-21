@@ -1,11 +1,20 @@
+.logInArea{
+    border: 1px solid lightgrey;
+    margin: 30px 500px;
+    padding:10px;
+    background-color:white;
+    border-radius:10px;
+}
+
 .logInField{
-    border: 1px solid black;
-    width:35%;
+    border: 1px solid lightgrey;
+    /* width:35%; */
     padding:50px 50px;
     line-height: 80px;
     background-color:lightblue;
     color: orange;
     font-weight: bold;
+    border-radius:10px;
 }
 
 .logInField input[type=email], input[type=password], input[type=text] {
@@ -29,4 +38,31 @@
 .logInField span{
     text-decoration: underline;
     cursor: pointer;
+    color: orange;
+}
+
+
+.anotherWaySignIn{
+    /* border: 1px solid red; */
+    /* width:35%; */
+    padding:20px 60px;
+    color: orange;
+}
+
+.anotherWaySignIn button{
+    border-radius: 30px;
+    width:350px;
+    height: 50px;
+    font-weight: bold;
+    background-color:lightblue;
+    color: white;
+    margin-top:30px;
+}
+
+.anotherWaySignIn button span{
+    color:blue;
+    padding: 3px;
+    border: 1px solid blue;
+    border-radius: 100%;
+    margin-right: 30px;
 }

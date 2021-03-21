@@ -14,7 +14,9 @@ import LogIn from './components/LogIn/LogIn';
 
 function App() {
   return (
-    <div  style={{ backgroundImage: `url(${bg})`, height:"100%", width:"100%", backgroundRepeat:"no-repeat", backgroundSize:"cover" }}>
+    <div  style={{ backgroundImage: `url(${bg})`, width:"100%",
+    height:"100%" ,backgroundPosition: 'center',backgroundRepeat:"no-repeat", 
+    backgroundSize:"cover" }}>
       <Router>
       <Header></Header>
       <Switch>
@@ -24,6 +26,10 @@ function App() {
 
           <Route path="/home">
             <Home />
+          </Route>
+
+          <Route path="/destination">
+            <Search></Search>
           </Route>
 
           <Route path="/Search/:vehicalType">
