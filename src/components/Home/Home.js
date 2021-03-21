@@ -31,7 +31,6 @@ const Home = () => {
     return (
         <div>
             <div className="home">   
-                <h2>Length: {vehicals.length}</h2>
                 {
                     vehicals.map(vh => <VehicalCard vehical={vh}></VehicalCard>)
                 }   

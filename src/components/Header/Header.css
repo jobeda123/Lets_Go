@@ -1,11 +1,31 @@
 .nav{
-    padding-left: 300px;
     /* border: 2px solid orange; */
+    display:flex;
+    /* border: 1px solid red; */
+    color:orange;
+    font-weight:bold;
+    font-size:22px;
+    padding-right:30px;
+}
+
+.nav:hover{
+    text-decoration:none;
+}
+
+.header{
+    display:flex;
+    padding-top: 50px;
+}
+
+.navBar{
+    display:flex;
+    /* border: 1px solid blue; */
+    padding-left: 300px;
 }
 
 
 .logInBtn{
-    margin-left: 40px;
+    margin-left: 30px;
     background-color: orange;
     border: 1px solid white;
 }
