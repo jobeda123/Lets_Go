@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const SearchResult = () => {
     return (
-        <div>
-            <h1>Search Result</h1>
-        </div>
+        <Container>
+            <h1>Sorry, Couldn't Complete</h1>
+        </Container>
     );
 };
 

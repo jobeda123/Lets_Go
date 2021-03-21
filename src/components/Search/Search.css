@@ -5,10 +5,16 @@
 
 .search-field{
     width:40%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .map{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width:60%;
+    margin: 10px;
+    padding:10px;
+}
+
+.map img{
+    width:100%;
 }

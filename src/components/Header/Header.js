@@ -15,7 +15,7 @@ const Header = () => {
             <img style={{width:"150px"}} src={logo} alt=""></img>
             <nav className="navBar">
                 <Link className="nav" to="/home">Home</Link>
-                <Link className="nav" to="/destination">Destination</Link>
+                <Link className="nav" to="/search">Destination</Link>
                 <Link className="nav" to="/blog">Blog</Link>
                 <Link className="nav" to="/contact">Contact</Link>
             </nav>
@@ -23,7 +23,7 @@ const Header = () => {
                     <Link to={"/login"}>
                         <Button className="logInBtn" style={{fontWeight:"bold"}} variant="primary">Log In</Button>
                     </Link>
-                    : <h4 className="nameDesign">{loggedInUser.name}</h4>
+                    : <h4 style={{color:"black", fontWeight:"bold" ,fontSize:"35px"}}>{loggedInUser.name}</h4>
                 }
                 <Button onClick={() => setLoggedInUser({})} className="logInBtn" style={{fontWeight:"bold", width:"90px", height:"40px"}} variant="primary">Log Out</Button>
                 

@@ -8,10 +8,9 @@ const VehicalCard = (props) => {
     return (
         
             <div className="vehicalCard">
-                <Link to={`/destination/${vehicalType}`}>
+                <Link to={`/search/${vehicalType}`}>
                     <img src={image} alt=""/>
                 </Link>
-                <h3>{vehicalType}</h3>
             </div>
         
     );

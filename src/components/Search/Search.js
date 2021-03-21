@@ -2,16 +2,18 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import SearchField from '../SearchField/SearchField';
 import './Search.css';
-import map from '../../images/road-bg.jpg';
+import map from '../../images/map.jpg';
+import { useParams } from 'react-router';
 
 
 
 const Search = () => {
+    const { vehicalType } = useParams();
+    console.log("Type",vehicalType);
     return (
         <Container>
             <div className="search">
                 <div className="search-field">
-                    <h1>Search Field</h1>
                     <SearchField></SearchField>
                 </div>
 

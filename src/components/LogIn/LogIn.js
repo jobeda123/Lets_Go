@@ -178,8 +178,8 @@ const LogIn = () => {
                     : <h6 style={{ color: 'white', textAlign: 'center' }}>Don't Have An Account? <span onClick={() => setNewUser(!newUser)}>Create an account</span></h6>
                 }
 
-                <h1>Error: {user.error}</h1>
-                {user.success && <h1>User {newUser ? 'Created Successfully' : 'Logged In'}</h1>}
+                { !user.success && user.error }
+                {user.success && <h5>User {newUser ? 'Created Successfully' : 'Logged In'}</h5>}
 
             </div>
 
